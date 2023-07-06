@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --gray: #333;
+    --gray-light: #4f4f4f;
+    --white: #fff;
+    --gray-lighter: #bdbdbd;
+}
+h1.site-title{
+    font-family: 'Space Mono';
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -2.24px;
+    line-height: normal;
+}
+
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 24px 0;
+}
+
+span.header-text{
+    font-family: 'Inconsolata';
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
+    color: var(--gray);
+}
+
+p.site-description{
+    font-family: 'Space Mono';
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.84px;   
+    color: var(--gray-light);
+}
+
+.content{
+    display: flex;
+    max-width: 1440px;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.main-content{
+    max-width: 560px;
+    width: 50%;
+}
+
+.main-logo{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.main-logo img{
+    width: 50%;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.btn{
+    background-color: var(--gray);
+    font-family: 'Space Mono';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.49px;
+    text-transform: uppercase;
+    color: var(--white);
+    padding: 8px 16px;
+    width: fit-content;
+}
+
+.btn a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.footer-content{
+    text-align: center;
+    font-family: 'Montserrat';
+    color: var(--gray-lighter);
+    padding-bottom: 24px;
+}
